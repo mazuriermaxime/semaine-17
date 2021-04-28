@@ -1,0 +1,31 @@
+Répondez aux questions suivantes :
+
+Que signifie le terme NoSQL ?
+
+-Not Only SQL
+
+Pourquoi parle-t-on de "non relationnel" ?
+
+-Dans un contexte de quantité croissante de données, la base de données relationnelle n’est pas assez efficace.
+ A contrario, la base de données non relationnelle permet de stocker des données volumineuses. 
+Celles-ci peuvent être regroupées sur plusieurs machines afin de réduire les coûts de maintenance.
+
+Comment sont nées les bases NoSQL ?
+Les bases NoSQL sont née car les limites des SGBDR ont été atteintes
+en termes de volume de données à stocker, exploitation à partir de sources
+multiples et structures hétérogènes, Temps de traitement/ 
+rapidité des requêtes
+
+Y-a-t-il un seul type de base NoSQL ?
+
+-Les bases de données NoSQL peuvent être de différents types :
+
+Bases de documents : Les données dynamiques y sont stockées, au format JavaScript Object Notation (JSON). Par exemple : CouchDB, Mongo
+Base de données de colonnes : Elle est utile pour analyser les données. Par exemple : Apache Cassandra
+Bases de données en cache : Les données sont stockées sur le disque ou le cache. Par exemple : Memcache
+Bases de données graphiques : Elle est composée de nœuds et créé des relations en utilisant des arêtes. Par exemple. Oracle NoSQL, Neo4J.
+etc.
+
+Dans quel cas utiliser une base NoSQL ?
+
+- L’une stocke les données dans des tables tandis que l’autre les stockent au format clé-valeur de manière à stocker davantage en termes de quantité.
